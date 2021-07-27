@@ -1,9 +1,9 @@
 const tabItems = document.querySelectorAll(".tab-item");
-const tabContentItem = document.querySelectorAll(".tab-content-item");
+const tabContentItems = document.querySelectorAll(".tab-content-item");
 
-// Select Tab Content Item
+// Select tab content item
 function selectItem(e) {
-  //Remove all show and border classes
+  // Remove all show and border classes
   removeBorder();
   removeShow();
   // Add border to current tab item
